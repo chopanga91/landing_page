@@ -53,8 +53,8 @@ a:visited ,
 
 .contenido1 {
     background-color: #1F2937;
-    margin: 0;
-    padding: 0;
+    margin: 0 ;
+    padding: 40px;
     border: 0;
     padding-left: 50px;
     display: flex;
@@ -67,9 +67,12 @@ a:visited ,
     display: flex;
     flex-direction: column;
     max-width: 600px;
+    width: 400px;
+    height: auto;
     margin-bottom: 20px;
     flex: 1;
     padding-left: 50px;
+
     
 }
 
@@ -103,4 +106,34 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: bold;
+}
+
+.container-recuadros {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.recuadro1 {
+    min-width: 120px;
+  
+}
+.texto-recuadro {
+    width: 100px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.imagen-grupo {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+h2 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+    text-align: center;
 }
