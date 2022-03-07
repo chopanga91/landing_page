@@ -16,7 +16,7 @@ header {
 ul {
     padding-right: 30px;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     list-style: none;
     font-size: 18px;
     color: #e5e7eb;
@@ -96,7 +96,7 @@ h1 {
 .hero-secondary-text {
     margin: 5;
 }
-button {
+.cont1-button {
     width: 120px;
     height: 30px;
     padding: 4px;
@@ -137,3 +137,95 @@ h2 {
     margin: auto;
     text-align: center;
 }
+
+
+.contenido3 {
+    
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+h4 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    font-family: 'Roboto';
+    max-width: 750px;
+    padding: 50px 50px 0px 50px;
+    margin-bottom: 20px;
+}
+h5 {
+    padding-top: 0px;
+    padding-right: 50px;
+    margin-top: 0px;
+    align-self: flex-end;
+    max-width: 750px;
+    font-family: 'Roboto';
+    font-weight: lighter;
+
+
+}
+
+
+
+.contenido4 {
+    padding: 20px 40px;
+    margin: 50px auto;
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 700px;
+    
+    
+}
+h6, 
+.cont4-text,
+.cont4-button {
+    color: #F9FAF8;
+}
+h6 {
+    margin-top: 12px;
+    font-family: 'Roboto';
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.cont4-text {
+    
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    margin-top:  8px; 
+}
+
+.cont4-button {
+    width: 100px;
+    height: 30px;
+    padding: 4px;
+    border-color: #F9FAF8;
+    border-style: none;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
+    
+}
+footer 
+    {
+        background-color: #1F2937;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 10px;
+        color: #F9FAF8;
+        font-family:'Roboto';
+    }
